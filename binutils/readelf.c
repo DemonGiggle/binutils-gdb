@@ -2521,7 +2521,7 @@ get_machine_name (unsigned e_machine)
     case EM_Z80:		return "Zilog Z80";
     case EM_VISIUM:		return "CDS VISIUMcore processor";
     case EM_FT32:               return "FTDI Chip FT32";
-    case EM_MOXIE:              return "Bonjour";
+    case EM_MOXIE:              return "Moxie";
     case EM_BONJOUR:            return "Bonjour";
     case EM_AMDGPU: 	 	return "AMD GPU";
     case EM_RISCV: 	 	return "RISC-V";
