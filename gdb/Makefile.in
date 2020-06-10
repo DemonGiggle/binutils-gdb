@@ -763,6 +763,7 @@ ALL_TARGET_OBS = \
 	mn10300-linux-tdep.o \
 	mn10300-tdep.o \
 	moxie-tdep.o \
+	bonjour-tdep.o \
 	msp430-tdep.o \
 	nbsd-tdep.o \
 	nds32-tdep.o \
@@ -997,6 +998,7 @@ COMMON_SFILES = \
 	dwarf-index-cache.c \
 	dwarf-index-common.c \
 	dwarf-index-write.c \
+	selftest-arch.c \
 	dwarf2-frame.c \
 	dwarf2-frame-tailcall.c \
 	dwarf2expr.c \
@@ -1232,6 +1234,7 @@ HFILES_NO_SRCDIR = \
 	dummy-frame.h \
 	dwarf-index-cache.h \
 	dwarf-index-common.h \
+	selftest-arch.h \
 	dwarf2-frame.h \
 	dwarf2-frame-tailcall.h \
 	dwarf2expr.h \
@@ -1317,6 +1320,7 @@ HFILES_NO_SRCDIR = \
 	mips-tdep.h \
 	mn10300-tdep.h \
 	moxie-tdep.h \
+	bonjour-tdep.h \
 	nbsd-nat.h \
 	nbsd-tdep.h \
 	nds32-tdep.h \

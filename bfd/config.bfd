@@ -512,6 +512,10 @@ case "${targ}" in
     targ_defvec=moxie_elf32_le_vec
     ;;
 
+  bonjour-*-elf | bonjour-*-linux*)
+    targ_defvec=bonjour_elf32_vec
+    ;;
+
   h8300*-*-elf | h8300*-*-rtems*)
     targ_defvec=h8300_elf32_vec
     targ_underscore=yes

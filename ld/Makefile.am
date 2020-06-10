@@ -261,6 +261,7 @@ ALL_EMULATION_SOURCES = \
 	eelf32microblazeel.c \
 	eelf32microblaze.c \
 	eelf32moxie.c \
+	eelf32bonjour.c \
 	emoxiebox.c \
 	eelf32mt.c \
 	eelf32or1k.c \
@@ -749,6 +750,7 @@ $(ALL_EMULATION_SOURCES) $(ALL_64_EMULATION_SOURCES): $(GEN_DEPENDS)
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32microblazeel.Pc@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32microblaze.Pc@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32moxie.Pc@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32bonjour.Pc@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/emoxiebox.Pc@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32mt.Pc@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/eelf32or1k.Pc@am__quote@

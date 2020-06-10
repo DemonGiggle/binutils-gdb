@@ -334,13 +334,14 @@
 #define EM_Z80 		220 	/* Zilog Z80 */
 #define EM_VISIUM	221	/* Controls and Data Services VISIUMcore processor */
 #define EM_FT32         222     /* FTDI Chip FT32 high performance 32-bit RISC architecture */
-#define EM_MOXIE        223     /* Moxie processor family */
+#define EM_MOXIE        223     /* Bonjour processor family */
 #define EM_AMDGPU 	224 	/* AMD GPU architecture */
 #define EM_RISCV 	243 	/* RISC-V */
 #define EM_LANAI	244	/* Lanai 32-bit processor.  */
 #define EM_BPF		247	/* Linux BPF – in-kernel virtual machine.  */
 #define EM_NFP		250	/* Netronome Flow Processor.  */
 #define EM_CSKY		252	/* C-SKY processor family.  */
+#define EM_BONJOUR  253     /* Bonjour processor family */
 
 /* If it is necessary to assign new unofficial EM_* values, please pick large
    random numbers (0x8523, 0xa7f2, etc.) to minimize the chances of collision
@@ -426,8 +427,11 @@
 
 #define EM_CYGNUS_MEP		0xF00D  /* Toshiba MeP */
 
-/* Old, unofficial value for Moxie.  */
+/* Old, unofficial value for Bonjour.  */
 #define EM_MOXIE_OLD            0xFEED
+
+/* Old, unofficial value for Bonjour.  */
+#define EM_BONJOUR_OLD            0x9f0b
 
 #define EM_MICROBLAZE_OLD	0xbaab	/* Old MicroBlaze */
 

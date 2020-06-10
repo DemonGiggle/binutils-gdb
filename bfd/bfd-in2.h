@@ -1778,6 +1778,8 @@ enum bfd_architecture
 #define bfd_mach_fr550         550
   bfd_arch_moxie,     /* The moxie processor.  */
 #define bfd_mach_moxie         1
+  bfd_arch_bonjour,     /* The bonjour processor.  */
+#define bfd_mach_bonjour       1
   bfd_arch_ft32,      /* The ft32 processor.  */
 #define bfd_mach_ft32          1
 #define bfd_mach_ft32b         2
@@ -2666,7 +2668,7 @@ to compensate for the borrow when the low bits are added.  */
   BFD_RELOC_MIPS_JUMP_SLOT,
 
 
-/* Moxie ELF relocations.  */
+/* Bonjour ELF relocations.  */
   BFD_RELOC_MOXIE_10_PCREL,
 
 

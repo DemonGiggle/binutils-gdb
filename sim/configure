@@ -684,6 +684,7 @@ microblaze
 mips
 mn10300
 moxie
+bonjour
 msp430
 or1k
 pru
@@ -3825,6 +3826,14 @@ subdirs="$subdirs aarch64"
 
 
        ;;
+   bonjour-*-*)
+
+  sim_arch=bonjour
+  subdirs="$subdirs bonjour"
+
+
+       ;;
+
    msp430*-*-*)
 
   sim_arch=msp430

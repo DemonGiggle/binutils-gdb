@@ -3766,6 +3766,9 @@ case "${target}" in
   moxie-*-*)
     noconfigdirs="$noconfigdirs"
     ;;
+  bonjour-*-*)
+    noconfigdirs="$noconfigdirs"
+    ;;
   h8300*-*-*)
     noconfigdirs="$noconfigdirs target-libgloss"
     ;;
